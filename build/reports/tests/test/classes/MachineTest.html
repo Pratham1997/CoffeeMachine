@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class MachineTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class MachineTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; MachineTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.114s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">coffeeMachineTest()</td>
+<td class="success">0.114s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+Machine Turned ON
+
+Ingredients available in the Machine:
+Ingredient: hot_milk   Quantity: 500ml
+Ingredient: ginger_syrup   Quantity: 100ml
+Ingredient: sugar_syrup   Quantity: 100ml
+Ingredient: tea_leaves_syrup   Quantity: 100ml
+Ingredient: hot_water   Quantity: 500ml
+
+Outlet Number: 1    hot_coffee is prepared
+Outlet Number: 4    hot_tea is prepared
+Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+
+Machine Turned OFF
+Successfully Created Beverages: [hot_coffee, hot_tea]
+
+Ingredients available in the Machine:
+Ingredient: hot_milk   Quantity: 0ml
+Ingredient: ginger_syrup   Quantity: 60ml
+Ingredient: sugar_syrup   Quantity: 40ml
+Ingredient: tea_leaves_syrup   Quantity: 40ml
+Ingredient: hot_water   Quantity: 200ml
+Please refill hot_milk
+
+Refilling Ingredient: choco_milk   Quantity: 500ml
+
+Ingredients available in the Machine:
+Ingredient: hot_milk   Quantity: 0ml
+Ingredient: choco_milk   Quantity: 500ml
+Ingredient: ginger_syrup   Quantity: 60ml
+Ingredient: sugar_syrup   Quantity: 40ml
+Ingredient: tea_leaves_syrup   Quantity: 40ml
+Ingredient: hot_water   Quantity: 200ml
+Please refill hot_milk
+
+Refilling Ingredient: hot_milk   Quantity: 400ml
+Refilling Ingredient: ginger_syrup   Quantity: 200ml
+Refilling Ingredient: hot_choco   Quantity: 400ml
+
+Ingredients available in the Machine:
+Ingredient: hot_milk   Quantity: 400ml
+Ingredient: choco_milk   Quantity: 500ml
+Ingredient: ginger_syrup   Quantity: 260ml
+Ingredient: hot_choco   Quantity: 400ml
+Ingredient: sugar_syrup   Quantity: 40ml
+Ingredient: tea_leaves_syrup   Quantity: 40ml
+Ingredient: hot_water   Quantity: 200ml
+
+Machine OFF: Creation of drink hot_coffee rejected
+Machine OFF: Creation of drink green_tea rejected
+Machine OFF: Creation of drink black_tea rejected
+Machine OFF: Creation of drink hot_tea rejected
+
+Machine Turned ON
+Outlet Number: 1    hot_coffee cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+Outlet Number: 2    hot_coffee cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 4    hot_tea is prepared
+Outlet Number: 4    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 2    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+Outlet Number: 1    green_tea cannot be prepared because item green_mixture is not available
+
+Machine Turned OFF
+Successfully Created Beverages: [hot_coffee, hot_tea, hot_tea]
+Number of Outlets Updated to 6
+
+Machine Turned ON
+Outlet Number: 1    hot_coffee cannot be prepared because item hot_milk is not sufficient
+Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 6    green_tea cannot be prepared because item green_mixture is not available
+Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+Outlet Number: 1    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 4    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+Outlet Number: 5    hot_coffee cannot be prepared because item hot_milk is not sufficient
+
+Machine Turned OFF
+Successfully Created Beverages: [hot_coffee, hot_tea, hot_tea]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.0.2</a> at 29-Aug-2021, 8:03:20 PM</p>
+</div>
+</div>
+</body>
+</html>

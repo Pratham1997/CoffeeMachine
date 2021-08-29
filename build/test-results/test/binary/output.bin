@@ -1,0 +1,81 @@
+
+Machine Turned ON
+
+&Ingredients available in the Machine:
+'Ingredient: hot_milk   Quantity: 500ml
++Ingredient: ginger_syrup   Quantity: 100ml
+*Ingredient: sugar_syrup   Quantity: 100ml
+/Ingredient: tea_leaves_syrup   Quantity: 100ml
+(Ingredient: hot_water   Quantity: 500ml
+
++Outlet Number: 1    hot_coffee is prepared
+(Outlet Number: 4    hot_tea is prepared
+\Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+]Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+
+Machine Turned OFF
+6Successfully Created Beverages: [hot_coffee, hot_tea]
+
+&Ingredients available in the Machine:
+%Ingredient: hot_milk   Quantity: 0ml
+*Ingredient: ginger_syrup   Quantity: 60ml
+)Ingredient: sugar_syrup   Quantity: 40ml
+.Ingredient: tea_leaves_syrup   Quantity: 40ml
+(Ingredient: hot_water   Quantity: 200ml
+Please refill hot_milk
+
+3Refilling Ingredient: choco_milk   Quantity: 500ml
+
+&Ingredients available in the Machine:
+%Ingredient: hot_milk   Quantity: 0ml
+)Ingredient: choco_milk   Quantity: 500ml
+*Ingredient: ginger_syrup   Quantity: 60ml
+)Ingredient: sugar_syrup   Quantity: 40ml
+.Ingredient: tea_leaves_syrup   Quantity: 40ml
+(Ingredient: hot_water   Quantity: 200ml
+Please refill hot_milk
+
+1Refilling Ingredient: hot_milk   Quantity: 400ml
+5Refilling Ingredient: ginger_syrup   Quantity: 200ml
+2Refilling Ingredient: hot_choco   Quantity: 400ml
+
+&Ingredients available in the Machine:
+'Ingredient: hot_milk   Quantity: 400ml
+)Ingredient: choco_milk   Quantity: 500ml
++Ingredient: ginger_syrup   Quantity: 260ml
+(Ingredient: hot_choco   Quantity: 400ml
+)Ingredient: sugar_syrup   Quantity: 40ml
+.Ingredient: tea_leaves_syrup   Quantity: 40ml
+(Ingredient: hot_water   Quantity: 200ml
+
+3Machine OFF: Creation of drink hot_coffee rejected
+2Machine OFF: Creation of drink green_tea rejected
+2Machine OFF: Creation of drink black_tea rejected
+0Machine OFF: Creation of drink hot_tea rejected
+
+Machine Turned ON
+]Outlet Number: 1    hot_coffee cannot be prepared because item sugar_syrup is not sufficient
+]Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+]Outlet Number: 2    hot_coffee cannot be prepared because item sugar_syrup is not sufficient
+(Outlet Number: 4    hot_tea is prepared
+\Outlet Number: 4    black_tea cannot be prepared because item sugar_syrup is not sufficient
+\Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+_Outlet Number: 2    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+]Outlet Number: 1    green_tea cannot be prepared because item green_mixture is not available
+
+Machine Turned OFF
+?Successfully Created Beverages: [hot_coffee, hot_tea, hot_tea]
+Number of Outlets Updated to 6
+
+Machine Turned ON
+ZOutlet Number: 1    hot_coffee cannot be prepared because item hot_milk is not sufficient
+\Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+]Outlet Number: 6    green_tea cannot be prepared because item green_mixture is not available
+]Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+_Outlet Number: 1    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+\Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+_Outlet Number: 4    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+ZOutlet Number: 5    hot_coffee cannot be prepared because item hot_milk is not sufficient
+
+Machine Turned OFF
+?Successfully Created Beverages: [hot_coffee, hot_tea, hot_tea]
