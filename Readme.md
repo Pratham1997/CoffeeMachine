@@ -1,9 +1,9 @@
 # CoffeeMachine
 
-###Problem Statement
+### Problem Statement
 Design a code for a working coffee machine with the given requirements.
 
-###Requirements
+### Requirements
 1. The machine will be serving multiple beverages
 2. Each beverage is made using different amounts of different sets of ingredients
 3. The machine will have a store of ingredients available in different quantities

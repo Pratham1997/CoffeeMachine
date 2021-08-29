@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-29T14:33:20" hostname="Prathams-MBP-2.Dlink" time="0.114">
+<testsuite name="MachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-29T14:51:37" hostname="Prathams-MBP-2.Dlink" time="0.119">
   <properties/>
-  <testcase name="coffeeMachineTest()" classname="MachineTest" time="0.114"/>
+  <testcase name="coffeeMachineTest()" classname="MachineTest" time="0.119"/>
   <system-out><![CDATA[
 Machine Turned ON
 
@@ -59,13 +59,13 @@ Machine OFF: Creation of drink hot_tea rejected
 
 Machine Turned ON
 Outlet Number: 1    hot_coffee cannot be prepared because item sugar_syrup is not sufficient
-Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
-Outlet Number: 2    hot_coffee cannot be prepared because item sugar_syrup is not sufficient
-Outlet Number: 4    hot_tea is prepared
-Outlet Number: 4    black_tea cannot be prepared because item sugar_syrup is not sufficient
 Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
+Outlet Number: 2    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 3    green_tea cannot be prepared because item green_mixture is not available
+Outlet Number: 4    hot_tea is prepared
+Outlet Number: 1    hot_coffee cannot be prepared because item hot_milk is not sufficient
 Outlet Number: 2    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
-Outlet Number: 1    green_tea cannot be prepared because item green_mixture is not available
 
 Machine Turned OFF
 Successfully Created Beverages: [hot_coffee, hot_tea, hot_tea]
@@ -73,13 +73,13 @@ Number of Outlets Updated to 6
 
 Machine Turned ON
 Outlet Number: 1    hot_coffee cannot be prepared because item hot_milk is not sufficient
-Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
-Outlet Number: 6    green_tea cannot be prepared because item green_mixture is not available
 Outlet Number: 2    green_tea cannot be prepared because item green_mixture is not available
-Outlet Number: 1    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
-Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
 Outlet Number: 4    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
 Outlet Number: 5    hot_coffee cannot be prepared because item hot_milk is not sufficient
+Outlet Number: 2    hot_tea cannot be prepared because item tea_leaves_syrup is not sufficient
+Outlet Number: 3    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 1    black_tea cannot be prepared because item sugar_syrup is not sufficient
+Outlet Number: 6    green_tea cannot be prepared because item green_mixture is not available
 
 Machine Turned OFF
 Successfully Created Beverages: [hot_coffee, hot_tea, hot_tea]
